@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+table{
+	width:92%;border-width:5px;border-style:solid;
+}
+
+th{
+	width:23%;border-width:3px;border-style:solid;
+}
+
+td{
+	width:23%;border-width:3px;border-style:solid;
+}

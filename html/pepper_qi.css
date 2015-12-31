@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+body{
+	overflow-y:scroll;
+	overflow-x:scroll;
+	line-height:1.5em;
+}
+
+button{
+	margin-bottom:4%;
+}
+
+input{
+	font-size:130%;
+}
+
+iframe.navi{
+	width:99%;
+	float:left;
+	height:300px;
+}
+
+iframe.body{
+	width:99%;
+	float:left;
+	height:300px;
+}
+
+td.viewCell{
+	border-width:1px;
+	border-style:solid;
+	text-align:left;
+}
+
+th.viewCell{
+	border-width:2px;
+	border-style:solid;
+	text-align:center;
+}
+
+
+tr.oddLine{
+	background-color:#f4f4f4;
+}
+tr.evenLine{
+	background-color:#FFFFFF;
+}
+
+div.area_all{
+	width:1180px;
+	height:750px;
+	border-style:solid;
+	border-width:2px;
+	padding:1%;
+}
+
+div.area_body{
+	height:85%;	
+}
+
+div.area_left{
+	width:22%;
+	height:98%;
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	padding:1%;
+}
+
+div.area_apli_exp_btn{
+	margin-left:2%;
+	background-color:#FFEEEE;
+	padding:2%;
+}	
+
+div.area_apli_exp{
+	background-color:#EEFFEE;
+	padding:2%;
+}	
+
+div.area_content{
+	width:72%;
+	height:98%;
+	float:right;
+	border-style:solid;
+	border-width:1px;
+	padding:1%;
+}
+
+div.apli_manual{
+	margin-left:3%
+}
+
+div.voice_retry{
+	clear:both;
+	border-style:solid;
+	border-width:1px;
+	height:8%;
+	padding:1%;
+	background-color:#EEEEFF;
+}
+div.devlop{
+	display: inline;
+	/*display: none;*/
+}
+
+textarea.devlop{
+	width:80%;
+}

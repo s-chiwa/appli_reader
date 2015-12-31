@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>appli_reader</title>
+<link rel="stylesheet" href="pepper_qi.css" type="text/css" />
+<link rel="stylesheet" href="table.css" type="text/css" />
+<script src="pepper_help_linereader.js" charset="utf-8"></script>
+
+</head>
+<body style="overflow-y:scroll;">
+			<div class="area_apli_exp">
+				【アプリケーション】<span id="apliNameDetail">appli_reader(アプリ読み上げ)</span><br />
+				【アプリケーションの説明】<span id="apliDigestDetail">このペッパーにインストールされているアプリを読み上げます。#ツール#</span><br />
+					【このアプリケーションのマニュアル】<br />
+					<div id="apliManualDetail" class="apliManualDetail">
+						♪「全部おしえて」というとすべてのデータを列挙します。<br />
+						♪アルデバラン・アプリストアのカテゴリ分けで使う言葉は音声認識できるように準備しています。<br />
+						『エンターテイメント』『教育』『ライフスタイル』『写真や音楽と動画』『ニュースと情報』『ゲーム』『ツール』『ヘルスケア』『コミュニケーション』『子供向け』です。<br />
+						♪タブレットから検索語フリーで絞り込みできます。<br />
+						ただしWebの検索エンジンのように類義語も候補に残すことはせず、厳密に検索するので注意してください。<br />	
+						♪「おしえてくれてありがとう」というとこの列挙アプリケーションを終了します。<br />
+						♪このアプリケーションは「ツール」です。<br />
+					</div>
+			</div>
+				<button id="sendPepperSayLine_apliManualDetail_TextElementButton" onclick="lineReader(this)">１項目ずつ読み上げます</button>
+				<button id="sendPepperSay_apliManualDetail_TextElementButton" onclick="parent.sendPepperFromTablet(this)">すべて読み上げます</button>
+				<button id="sendPepperSay_apliManualDetail_TextElementButton" onclick="parent.sendPepperFromTabletByCommand('aaaabbb')">ダミー</button>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="appli_reader-54a69b" version="0.0.1">
+ <names>
+  <name lang="en_US">appli_reader</name>
+  <name lang="en_US-x-scrald">appli_reader</name>
+  <name lang="ja_JP">アプリ読み上げ</name>
+  <name lang="ja_JP-x-scrald">アプリ読み上げ</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">read up installerd apllications in this Pepper</description>
+  <description lang="en_US-x-scrald">read up installerd apllications in this Pepper</description>
+  <description lang="ja_JP">このペッパーにインストールされているアプリを読み上げます。#ツール#</description>
+  <description lang="ja_JP-x-scrald">このペッパーにインストールされているアプリを読み上げます。#ツール#</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>ja_JP</language>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>ja_JP</language>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="en_US">what do yo do</sentence>
+    <sentence lang="en_US-x-scrald">what do yo do</sentence>
+    <sentence lang="ja_JP">何ができるの？</sentence>
+    <sentence lang="ja_JP-x-scrald">何ができるの</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">wake up...</sentence>
+    <sentence lang="en_US-x-scrald">wake up...</sentence>
+    <sentence lang="ja_JP">準備します。</sentence>
+    <sentence lang="ja_JP-x-scrald">準備します。</sentence>
+   </loadingResponses>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.4"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>

@@ -1,0 +1,25 @@
+topic: ~base()
+language: jpj
+
+#アプリの終了
+u:(おしえてくれてありがとう) はーい。 $onBridgeMethod="appClose"
+u:(このアプリ終了) 了解! $onBridgeMethod="appClose"
+u:(ダイアログ中断) はーい。聞くのを中断します。 $onStopped=1
+
+#感情ログの表示／非表示
+u:(感情ログをみせて) はーい。感情ログを更新します。 $onBridgeMethod="emotionViewOn"
+u:(感情ログを更新しないで) はーい。更新をストップします。 $onBridgeMethod="emotionViewOff"
+
+#具体的な動作
+
+u:(全部教えて) はーい。全部検索します。 $onBridgeMethod="全部"
+u:(エンターテイメント) はーい。「エンターテイメント」を検索します。 $onBridgeMethod="エンターテイメント"
+u:(教育) はーい。「教育」を検索します。 $onBridgeMethod="教育"
+u:(ライフスタイル) はーい。「ライフスタイル」を検索します。 $onBridgeMethod="ライフスタイル"
+u:(写真や音楽と動画) はーい。「写真や音楽と動画」を検索します。 $onBridgeMethod="写真や音楽と動画"
+u:(ニュースと情報) はーい。「ニュースと情報」を検索します。 $onBridgeMethod="ニュースと情報"
+u:(ゲーム) はーい。「ゲーム」を検索します。 $onBridgeMethod="ゲーム"
+u:(ツール) はーい。「ツール」を検索します。 $onBridgeMethod="ツール"
+u:(ヘルスケア) はーい。「ヘルスケア」を検索します。 $onBridgeMethod="ヘルスケア"
+u:(コミュニケーション) はーい。「コミュニケーション」を検索します。 $onBridgeMethod="コミュニケーション"
+u:(子供向け) はーい。「子供向け」を検索します。 $onBridgeMethod="子供向け"
